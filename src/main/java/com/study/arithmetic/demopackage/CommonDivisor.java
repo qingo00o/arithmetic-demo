@@ -3,7 +3,7 @@ package com.study.arithmetic.demopackage;
 /**
  * 类名称: CommonDivisor
  * *********************************
- * 类描述: 最大公约数
+ * 类描述: 最大公约数与最小公倍数
  *
  * @author DuJian
  * @date 2020/8/21
