@@ -1,11 +1,11 @@
 package com.study.arithmetic.chapter11_sorts2;
 
 /**
- * @ClassName MergeSortTest
- * @Description 归并排序
- * @Author DuJian
- * @Date 2019/7/12 10:28
+ * 归并排序2
+ * @date 2020/8/21
+ * @author DuJian
  **/
+
 public class MergeSortTest {
 
     public static void mergeSortInternally(int[] array,int p,int r){
@@ -18,9 +18,13 @@ public class MergeSortTest {
     }
 
     /**
-     * @Description //合并数组
-     * @Param [array, p, q, r]
-     * @Return void
+     * 合并已经排序的数组
+     * @param array
+     * @param p
+     * @param q
+     * @param r
+     * @date 2020/8/21
+     * @author DuJian
      **/
     private static void merge(int[] array, int p,int q, int r) {
         int[] tem = new int[r-p+1];
@@ -50,9 +54,13 @@ public class MergeSortTest {
     }
 
     /**
-     * @Description //利用哨兵简化合并的代码
-     * @Param [arr, p, q, r]
-     * @Return void
+     * 利用哨兵简化合并的代码
+     * @param arr
+     * @param p
+     * @param q
+     * @param r
+     * @date 2020/8/21
+     * @author DuJian
      **/
     public static void mergeBySentry(int[] arr, int p, int q, int r) {
         //定义两个临时数组，将两个临时数组的最后一位置为Integer最大值

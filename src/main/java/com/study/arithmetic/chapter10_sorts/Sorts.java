@@ -1,10 +1,9 @@
 package com.study.arithmetic.chapter10_sorts;
 
 /**
- * @ClassName Sorts
- * @Description 冒泡排序
- * @Author DuJian
- * @Date 2019/7/4 16:27
+ * 冒泡排序
+ * @date 2020/8/21
+ * @author DuJian
  **/
 public class Sorts {
     public static void main(String[] args) {

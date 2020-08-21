@@ -2,10 +2,9 @@ package com.study.arithmetic.chapter11_sorts2;
 
 
 /**
- * @ClassName MergeSort
- * @Description 歸并排序
- * @Author DuJian
- * @Date 2019/7/10 14:59
+ * 归并排序
+ * @date 2020/8/21
+ * @author DuJian
  **/
 public class MergeSort {
 
@@ -22,9 +21,12 @@ public class MergeSort {
     }
 
     /**
-     * @Description //归并排序的递归调用函数，p和r分别表示排序开始与结束的下标
-     * @Param [array, p, r]
-     * @Return void
+     * 归并排序的递归调用函数，p和r分别表示排序开始与结束的下标
+     * @param array
+     * @param p
+     * @param r
+     * @date 2020/8/21
+     * @author DuJian
      **/
     public static void merge_sort_c(int[] array,int p,int r){
         //递归终止条件
